@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Boolean Undefined 和Null 
+        var  flog =true
+        var flog1 =false
+        console.log(flog +1); //true参与加法运算当1
+        console.log(flog1 +1);//false 参与加法运算当0
+
+        //声明一个变量未赋值就是undefined
+        var variable
+        console.log(variable + "xiangqi"); //字符串加任意类型都是字符串直接连接
+        console.log(variable + 1);//非数值型
+
+        //null加字符串和数字
+        var a =null;
+        console.log(a+'xiangqi'); //nullxiangqi
+        console.log(a+1);//
+
+        var age = prompt('请输入年龄：');
+        console.log(age);
+        console.log(typeof age);//string promot取过来的是字符串型
+
+    </script>
+</body>
+</html>
